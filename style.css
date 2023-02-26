@@ -124,6 +124,8 @@ main .filter-btn {
     border-radius            : 10px;
     /* max-height            : 500px; */
     display                  : grid;
+
+    transition: transform 0.2s;
 }
 
 .job-tile .tile-header {
@@ -183,6 +185,11 @@ main .filter-btn {
     background-color: #ff8800;
     color           : black;
     margin-left     : 5px;
+}
+
+.job-tile:hover {
+    transform: scale(1.05);
+
 }
 
 @media screen and (max-width: 400px) {
