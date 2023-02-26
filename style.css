@@ -185,7 +185,7 @@ main .filter-btn {
     margin-left     : 5px;
 }
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 400px) {
     .filter-container .filter-btn {
         display: none;
     }
@@ -226,5 +226,9 @@ main .filter-btn {
 
     div.job-tile .tile-description {
         width: 80%;
+    }
+
+    button {
+        border: none;
     }
 }
